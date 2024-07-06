@@ -1,0 +1,79 @@
+
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+h3{
+    font-size: 45px;
+}
+
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 90px;
+     
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 10px;
+
+}
+.hire-me{
+    
+    margin-top: -5px;
+    
+
+}
+.hire-me-button {
+    height: 50px;
+    width: 150px;
+    background-color: blueviolet;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px; /* Apply border-radius to the base state */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Ensure smooth transition */
+  }
+.hire-me-button:hover{
+    background-color: rgb(115, 48, 159);
+    border-color: blueviolet;
+    cursor: pointer;
+    
+
+}
+
+.nav-color{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+nav ul li {
+    list-style: none;
+   
+    margin-left: 60px;
+    
+    
+
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+     
+}
+
+
