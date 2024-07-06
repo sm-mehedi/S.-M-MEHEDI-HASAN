@@ -9,8 +9,9 @@
 }
 
 
-h3{
+h3{/* top right bottom left */
     font-size: 45px;
+    margin: 100px 0px 0 95px;
 }
 
 
@@ -53,7 +54,7 @@ nav{
 }
 
 .nav-color{
-    color: aliceblue;
+    color: rgb(153, 75, 167);
     font-size: 20px;
 }
 
@@ -75,5 +76,43 @@ nav ul{
     display: flex;
      
 }
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px; /* Corrected margin syntax */
+}
 
+.banner-content{
+    max-width: 580px;
+
+}
+
+.header{
+    background-image: url('../images/developer\ \(1\).png'), url('../images/violet-watercolor-texture-background.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto,cover; /* Ensure both backgrounds cover the entire header */
+    background-attachment: scroll, fixed; /* Keep the second background fixed */
+    background-position: left center, center; /* Center both backgrounds */
+    height: 100vh; /* Make sure the header takes up the full viewport*/
+
+}
+
+.image {
+    max-width: 1000PX; /* Ensure the image fits within its container */
+    height: 890px;
+    margin-top: -130px;
+    margin-left: -200px;
+  }
+
+  .section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+  }
+  .section-description{
+    font-size: 18px;
+    color: rgb(23, 9, 26);
+
+  }
+  
 
